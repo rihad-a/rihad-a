@@ -2,7 +2,7 @@
 <div align="center">
 
   
-# Hey, I'm Rihad and welcome to my page ✌️
+# Hey, I'm Rihad✌️
 
 
 ### About Me
@@ -34,3 +34,16 @@ Always keen to learn and share regarding anything DevOps related!
 
 ---
 ### 👾 Check out my most recent project
+
+---
+
+## [Threat Composer ECS Project](https://github.com/rihad-a/threat-composer-ecs) &nbsp; ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+
+
+**I engineered an end-to-end deployment for the Threat Composer application to showcase a modern DevOps workflow. This project provides a fully automated "Infrastructure as Code" nature for the application.**
+
+* **The Infrastructure:** Used **Terraform** to architect a modularized AWS environment including a custom **VPC** network, **ECS Fargate**, an **ALB**, and automated **Route 53** DNS.
+* **The Pipeline:** Orchestrated **GitHub Actions** to manage the full Terraform lifecycle (Plan/Apply/Destroy) and Docker builds. Utilising **artifacts** for plan persistence, **TFLint/Checkov** for IaC compliance, and **Trivy** for container vulnerability scanning.
+* **The Security Handshake:** Implemented **OIDC Authentication** between GitHub and AWS, eliminating the need for risky, outdated access keys.
+
+---
